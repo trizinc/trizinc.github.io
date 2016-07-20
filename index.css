@@ -4,29 +4,29 @@ body{
 }
 .div1{ 
 display: block;	
-width: 400px;
+width: 350px;
 margin: 0 auto;
 text-align: center;
 }
 .dim{
-height: 50px;	
+height: 20px;	
 margin: auto;
-font-size: 50px;
+font-size: 35px;
 color: black;  
 }
 .dim1{
-height: 20px;	
+height: 10px;	
 margin: auto;
-font-size: 25px;
+font-size: 20px;
 color: black;  
 }
 .medBtn{
-width: 100px;
-height: 100px;	
+width: 80px;
+height: 80px;	
 font-size: 20px;
 }
 .bigBtn{
-width: 308px;
-height: 100px;	
+width: 248px;
+height: 80px;	
 font-size: 20px;
 }
