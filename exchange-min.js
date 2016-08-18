@@ -106,7 +106,7 @@ $("#liveCattle").click(function(){symbol = 'LC=F'; $("#goods").html('Live Cattle
 
 // USD
 function getData() {
-    var url = "http://query.yahooapis.com/v1/public/yql";
+    var url = "https://query.yahooapis.com/v1/public/yql";
     var data = encodeURIComponent("select * from yahoo.finance.quotes where symbol in ('" + symbol + "')");
 
     $.getJSON(url, 'q=' + data + "&format=json&diagnostics=true&env=http://datatables.org/alltables.env")
