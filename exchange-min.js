@@ -106,7 +106,7 @@ $("#liveCattle").click(function(){symbol = 'LC=F'; $("#goods").html('Live Cattle
 
 // USD
 function getData() {
-    var url = "https://query.yahooapis.com/v1/public/yql";
+    var url = "http://query.yahooapis.com/v1/public/yql";
     var data = encodeURIComponent("select * from yahoo.finance.quotes where symbol in ('" + symbol + "')");
 
     $.getJSON(url, 'q=' + data + "&format=json&diagnostics=true&env=https://datatables.org/alltables.env")
@@ -122,7 +122,7 @@ function getData() {
 
 // US cents
 function getData1() {
-    var url = "https://query.yahooapis.com/v1/public/yql";
+    var url = "http://query.yahooapis.com/v1/public/yql";
     var data = encodeURIComponent("select * from yahoo.finance.quotes where symbol in ('" + symbol + "')");
 
     $.getJSON(url, 'q=' + data + "&format=json&diagnostics=true&env=https://datatables.org/alltables.env")
