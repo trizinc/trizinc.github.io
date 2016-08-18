@@ -109,7 +109,7 @@ function getData() {
     var url = "http://query.yahooapis.com/v1/public/yql";
     var data = encodeURIComponent("select * from yahoo.finance.quotes where symbol in ('" + symbol + "')");
 
-    $.getJSON(url, 'q=' + data + "&format=json&diagnostics=true&env=https://datatables.org/alltables.env")
+    $.getJSON(url, 'q=' + data + "&format=json&diagnostics=true&env=http://datatables.org/alltables.env")
         .done(function (data) {
         lastPrice = parseFloat(data.query.results.quote.LastTradePriceOnly);
 		$("#price").text("Bid Price: " + lastPrice);
@@ -125,7 +125,7 @@ function getData1() {
     var url = "http://query.yahooapis.com/v1/public/yql";
     var data = encodeURIComponent("select * from yahoo.finance.quotes where symbol in ('" + symbol + "')");
 
-    $.getJSON(url, 'q=' + data + "&format=json&diagnostics=true&env=https://datatables.org/alltables.env")
+    $.getJSON(url, 'q=' + data + "&format=json&diagnostics=true&env=http://datatables.org/alltables.env")
         .done(function (data) {
         lastPrice = Math.round(parseFloat(data.query.results.quote.LastTradePriceOnly) * 100) / 10000;
 		$("#price").text("Bid Price: " + lastPrice);
