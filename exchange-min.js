@@ -122,7 +122,7 @@ function getData() {
 
 // US cents
 function getData1() {
-    var url = "http://query.yahooapis.com/v1/public/yql";
+    var url = "https://query.yahooapis.com/v1/public/yql";
     var data = encodeURIComponent("select * from yahoo.finance.quotes where symbol in ('" + symbol + "')");
 
     $.getJSON(url, 'q=' + data + "&format=json&diagnostics=true&env=http://datatables.org/alltables.env")
