@@ -1,0 +1,1 @@
+$(".divBox").draggable();$("#reset").click(function(){location.reload()});

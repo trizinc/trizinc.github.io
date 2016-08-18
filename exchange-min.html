@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8>
+<meta http-equiv=X-UA-Compatible content="IE=edge">
+<meta name=viewport content="width=device-width, initial-scale=1">
+<link rel=stylesheet href=exchange-min.css>
+<link rel=stylesheet href=https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css>
+<link rel=icon href=earth.ico type=image/x-icon />
+<title> Exchange </title>
+</head>
+<body>
+<h2>EXCHANGE</h2>
+<p>Buy low, Sell high</p>
+Trading hours - Mon-Fri : 9.30am - 4pm (US Time)<br><br>
+Goals: <input id=task>&nbsp<button id=add>Add</button>
+<div id=todos></div>
+<hr>
+<p class=white>Metals &nbsp<button id=gold>Gold</button>
+<button id=silver>Silver</button>
+<button id=platinum>Platinum</button>
+<button id=copper>Copper</button></p>
+<p class=white>Energy &nbsp<button id=crudeOil>Crude Oil</button>
+<button id=naturalGas>Natural Gas</button></p>
+<p class=white>Agriculture &nbsp<button id=wheat>Wheat</button>
+<button id=corn>Corn</button>
+<button id=soybeans>Soybeans</button>
+<button id=oats>Oats</button>
+<button id=roughRice>Rough Rice</button>
+<button id=coffee>Coffee</button>
+<button id=orangeJuice>Orange Juice</button>
+<button id=sugar>Sugar</button>
+<button id=cocoa>Cocoa</button>
+<button id=cotton>Cotton</button>
+<button id=lumber>Lumber</button></p>
+<p class=white>Livestock &nbsp<button id=leanHogs>Lean Hogs</button>
+<button id=feederCattle>Feeder Cattle</button>
+<button id=liveCattle>Live Cattle</button></p>
+<p id=goods class=white>No Goods</p>
+<p id=price class=white>No Price</p>
+<p id=account></p>
+<p id=pnl></p>
+<button id=buy>Buy 1 Contract</button>
+<button id=sell>Sell 1 Contract</button>
+<button id=update>Update Price</button>
+<button id=reset>Reset Exchange</button>
+<p></p>
+<div id=com></div>
+<p>Unit conversion approx.
+t oz. = 31 g, lb. = 454 g, cwt = 45 kg, MT = 1000 kg, bu = 35 l; bbl. = 159 l, 1000 board feet = 2359 l.</p>
+<ol>
+<li>Start with US$ 50,000 and profit by trading in margins</li><br>
+<li>Add financial goals</li><br>
+<li>Select type of Goods: Metals, Energy, Agriculture or Livestock to fetch bid price in real time to buy and sell</li><br>
+<li>Buy a maximum of 1 contract per Good</li><br>
+<li>All trades exclude commission and fees</li><br>
+<li>Update price without trading</li><br>
+<li>"Reset Exchange" to start over</li><br>
+</ol>
+<script src=https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js></script>
+<script src=https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js></script>
+<script src=jquery.ui.touch-punch.min.js></script>
+<script src=exchange-min.js></script>
+<footer>Designed by <a href=https://trizinc.github.io>TRIZ Solutions</footer>
+</body>
+</html>
