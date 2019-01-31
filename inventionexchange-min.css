@@ -4,12 +4,6 @@ background-color: black;
 text-align: center;
 color: white;
 }
-footer{
-color: red;
-bottom:0;
-position: fixed;
-width: 100%;
-}
 a{
 color: orange;
 }
