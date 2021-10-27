@@ -1,6 +1,5 @@
 var b = [], r = 0, scoreB = 0; 
-//var world = "https://myjson.dit.upm.es/api/bins/1jgc"; // {"eight":[20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1]}
-var world = "https://trizinc.github.io/eight.json";
+var world = "https://myjson.dit.upm.es/api/bins/1jgc"; // {"eight":[20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1]}
 var check = document.getElementById("btnCheck");
 var start = document.getElementById("btnStart");
 var clear = document.getElementById("btnClear");
